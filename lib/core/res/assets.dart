@@ -13,4 +13,6 @@ abstract class Assets {
   static const String google = '$_images/google_icon.png';
   static const String facebook = '$_images/facebook_icon.png';
   static const String twitter = '$_images/twitter_icon.png';
+  static const String mensWithTable = '$_images/mens_with_table.png';
+  static const String happy = '$_images/happy.png';
 }

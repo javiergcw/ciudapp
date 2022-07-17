@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
+import 'package:uatciudapp/core/routes/app_routes.dart';
 
 class ButtonRed extends StatelessWidget {
   const ButtonRed({required this.label, Key? key}) : super(key: key);
@@ -12,7 +13,9 @@ class ButtonRed extends StatelessWidget {
       width: double.infinity,
       height: 50,
       child: TextButton(
-        onPressed: () {},
+        onPressed: () {
+          router.push('/dashboard');
+        },
         child: Text(
           label.toUpperCase(),
           style: const TextStyle(

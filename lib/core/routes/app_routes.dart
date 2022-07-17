@@ -5,6 +5,8 @@ import 'package:uatciudapp/presentation/User/ui/screens/login.dart';
 import 'package:uatciudapp/presentation/Started/ui/screens/onboarding.dart';
 import 'package:uatciudapp/presentation/User/ui/screens/register.dart';
 import 'package:uatciudapp/presentation/User/ui/screens/resetPassword.dart';
+import 'package:uatciudapp/presentation/habitant/screens/ReportForm.dart';
+import 'package:uatciudapp/presentation/habitant/screens/dashboard.dart';
 
 final GoRouter router = GoRouter(
   routes: <GoRoute>[
@@ -36,6 +38,17 @@ final GoRouter router = GoRouter(
       path: '/resetPassword',
       builder: (BuildContext context, GoRouterState state) =>
           const ResetPassword(),
+    ),
+    GoRoute(
+      name: 'dashboard',
+      path: '/dashboard',
+      builder: (BuildContext context, GoRouterState state) => const Dashboard(),
+    ),
+    GoRoute(
+      name: 'ReportForm',
+      path: '/ReportForm',
+      builder: (BuildContext context, GoRouterState state) =>
+          const ReportForm(),
     ),
   ],
 );
