@@ -1,12 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:uatciudapp/presentation/habitant/widgets/report/Photo.dart';
+import 'package:uatciudapp/presentation/habitant/widgets/report/location.dart';
 
 class ReportForm extends StatelessWidget {
   const ReportForm({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Text('Report Form'),
+    return Scaffold(
+      body: Column(
+        children: const [
+          Location()
+          //Photo(),
+        ],
+      ),
     );
   }
 }

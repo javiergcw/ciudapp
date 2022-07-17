@@ -80,7 +80,13 @@ const blackSemiBold = TextStyle(
 const blackTwentyFive = TextStyle(
   fontSize: 25,
   color: UIColors.black,
-  fontWeight: FontWeight.normal,
+  fontWeight: FontWeight.bold,
+);
+
+const blackTwentyFiveBold = TextStyle(
+  fontSize: 25,
+  color: UIColors.black,
+  fontWeight: FontWeight.bold,
 );
 const blackNineteen = TextStyle(
   fontSize: 19,
