@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/presentation/habitant/widgets/report/Photo.dart';
+import 'package:uatciudapp/presentation/habitant/widgets/report/info.dart';
 import 'package:uatciudapp/presentation/habitant/widgets/report/location.dart';
 
 class ReportForm extends StatelessWidget {
@@ -8,11 +9,14 @@ class ReportForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: const [
-          Location()
-          //Photo(),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: const [
+            Info()
+            //Location()
+            //Photo(),
+          ],
+        ),
       ),
     );
   }

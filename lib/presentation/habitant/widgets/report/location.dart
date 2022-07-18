@@ -10,41 +10,47 @@ class Location extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        SizedBoxConst.gapH50,
         const Image(
           image: AssetImage(Assets.sProfile),
         ),
-        containerLocation(),
+        SizedBoxConst.gapH30,
+        Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 30,
+          ),
+          child: Container(
+            width: double.infinity,
+            height: 410,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(
+                color: UIColors.gray,
+                width: 2,
+              ),
+            ),
+            child: Column(
+              children: [
+                containerLocationLabel(),
+                containerData(),
+              ],
+            ),
+          ),
+        ),
       ],
     );
   }
 }
 
-Widget containerLocation() {
-  return Container(
-    width: double.infinity,
-    height: 400,
-    decoration: BoxDecoration(
-      borderRadius: BorderRadius.circular(10),
-      border: Border.all(
-        color: UIColors.gray,
-        width: 2,
-      ),
-    ),
-    child: Column(
-      children: [
-        containerLocationLabel(),
-        ContainerData(),
-      ],
-    ),
-  );
-}
-
 Widget containerLocationLabel() {
   return Padding(
-    padding: const EdgeInsets.all(65),
+    padding: const EdgeInsets.symmetric(
+      horizontal: 40,
+    ),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: const [
+        SizedBoxConst.gapH30,
         Text(
           'ESPACIO Y TIEMPO',
           style: blackTwentyFiveBold,
@@ -56,45 +62,49 @@ Widget containerLocationLabel() {
           style: grayEighteen,
           textAlign: TextAlign.center,
         ),
+        SizedBoxConst.gapH10,
       ],
     ),
   );
 }
 
-Widget ContainerData() {
+Widget containerData() {
   return Stack(
     children: [
-      Column(
-        children: [
-          Container(
-            width: 340,
-            height: 150,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              border: Border.all(
-                color: UIColors.gray,
-                width: 2,
+      Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          children: [
+            Container(
+              width: 340,
+              height: 150,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(
+                  color: UIColors.gray,
+                  width: 2,
+                ),
               ),
-            ),
-            child: Stack(
-              children: [
-                const RowInfo(),
-                Positioned(
-                  bottom: 0,
-                  right: 0,
-                  child: Container(
-                    height: 130,
-                    width: 130,
-                    child: const Image(
-                      image: AssetImage(Assets.building),
-                      fit: BoxFit.cover,
+              child: Stack(
+                children: const [
+                  RowInfo(),
+                  Positioned(
+                    bottom: 0,
+                    right: 0,
+                    child: SizedBox(
+                      height: 120,
+                      width: 120,
+                      child: Image(
+                        image: AssetImage(Assets.building),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     ],
   );
