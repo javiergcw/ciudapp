@@ -31,7 +31,7 @@ class Sliders extends StatelessWidget {
           SizedBoxConst.gapH30,
           Text(
             titleMain,
-            style: blueFourteen,
+            style: blueFourty,
           ),
           SizedBoxConst.gapH30,
           Text(

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
-import 'package:uatciudapp/core/theme/styleFont.dart';
 import 'package:uatciudapp/presentation/habitant/widgets/ListReport.dart';
 import 'package:uatciudapp/presentation/habitant/widgets/ButtonBlue.dart';
 import 'package:uatciudapp/presentation/habitant/widgets/FreeAcess.dart';

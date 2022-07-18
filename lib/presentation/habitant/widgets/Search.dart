@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
-import 'package:uatciudapp/presentation/User/ui/widgets/TextFieldMain.dart';
 
 class Search extends StatelessWidget {
   const Search({Key? key}) : super(key: key);

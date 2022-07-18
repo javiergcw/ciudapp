@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
 
-const blueFourteen = TextStyle(
+const blueFourty = TextStyle(
   fontSize: 40,
   color: UIColors.lightBlue,
   fontWeight: FontWeight.bold,
@@ -9,6 +9,12 @@ const blueFourteen = TextStyle(
 
 const blue = TextStyle(
   fontSize: 16,
+  color: UIColors.blueIntense,
+  fontWeight: FontWeight.w500,
+);
+
+const blueFourteen = TextStyle(
+  fontSize: 14,
   color: UIColors.blueIntense,
   fontWeight: FontWeight.w500,
 );

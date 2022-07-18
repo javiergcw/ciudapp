@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:uatciudapp/core/res/res.dart';
 import 'package:uatciudapp/core/routes/app_routes.dart';
 import 'package:uatciudapp/core/theme/styleFont.dart';

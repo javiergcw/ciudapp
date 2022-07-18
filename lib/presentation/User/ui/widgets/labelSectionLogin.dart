@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
-import 'package:uatciudapp/core/theme/styleFont.dart';
 
 class LabelSectionLogin extends StatelessWidget {
   const LabelSectionLogin({Key? key}) : super(key: key);
