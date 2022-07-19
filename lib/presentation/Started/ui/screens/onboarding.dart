@@ -21,19 +21,19 @@ class _OnboardingState extends State<Onboarding> {
     });
   }
 
-  final List<Widget> _pages = [
-    const Sliders(
+  final List<Widget> _pages = const [
+    Sliders(
       image: Assets.menBlue,
       titleMain: 'Facil Acceso',
       abstractMain:
           'Formemos una gran comunidad y mejores juntos nuestra ciudad dia a dia junto a la herramienta de reporte',
     ),
-    const Sliders(
+    Sliders(
         image: Assets.franquice,
         titleMain: 'Lleva el Control',
         abstractMain:
             'Junto al seguimiento puedes notar el desarrollo del problema asignado, en caso de que pase mucho tiempo se generara otra alerta'),
-    const Sliders(
+    Sliders(
       image: Assets.mensWithPhone,
       titleMain: 'Observa avances',
       abstractMain:

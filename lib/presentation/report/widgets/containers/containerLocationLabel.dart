@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/headAbstract.dart';
+import 'package:uatciudapp/presentation/report/widgets/headAbstract.dart';
 
 class ContainerLocationLabel extends StatelessWidget {
   const ContainerLocationLabel({Key? key}) : super(key: key);

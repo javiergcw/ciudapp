@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:uatciudapp/core/res/res.dart';
 import 'package:uatciudapp/core/theme/styleFont.dart';
 
@@ -15,16 +16,21 @@ class Welcome extends StatelessWidget {
             onTap: () {
               print('go profile');
             },
-            child: Container(
-              width: 40,
-              height: 40,
-              decoration: BoxDecoration(
-                color: UIColors.grayF2,
-                borderRadius: BorderRadius.circular(20),
-              ),
-              child: const Icon(
-                Icons.person,
-                color: UIColors.black,
+            child: GestureDetector(
+              onTap: () {
+                context.push('/profile');
+              },
+              child: Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: UIColors.grayF2,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: const Icon(
+                  Icons.person,
+                  color: UIColors.black,
+                ),
               ),
             ),
           ),

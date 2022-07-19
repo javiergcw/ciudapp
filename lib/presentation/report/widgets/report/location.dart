@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/containers/containerData.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/containers/containerLocationLabel.dart';
+import 'package:uatciudapp/presentation/report/widgets/containers/containerData.dart';
+import 'package:uatciudapp/presentation/report/widgets/containers/containerLocationLabel.dart';
 
 class Location extends StatelessWidget {
   const Location({Key? key}) : super(key: key);

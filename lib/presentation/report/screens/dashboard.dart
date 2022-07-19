@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/ListReport.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/ButtonBlue.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/FreeAcess.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/Search.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/TitleList.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/Welcome.dart';
+import 'package:uatciudapp/presentation/report/widgets/ListReport.dart';
+import 'package:uatciudapp/presentation/report/widgets/ButtonBlue.dart';
+import 'package:uatciudapp/presentation/report/widgets/FreeAcess.dart';
+import 'package:uatciudapp/presentation/report/widgets/Search.dart';
+import 'package:uatciudapp/presentation/report/widgets/TitleList.dart';
+import 'package:uatciudapp/presentation/report/widgets/Welcome.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({Key? key}) : super(key: key);

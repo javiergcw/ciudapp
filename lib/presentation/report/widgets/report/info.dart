@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
 import 'package:uatciudapp/presentation/User/ui/widgets/buttonSelect.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/TextFieldBig.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/TextFieldForm.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/checkTNC.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/headAbstract.dart';
+import 'package:uatciudapp/presentation/report/widgets/TextFieldBig.dart';
+import 'package:uatciudapp/presentation/report/widgets/TextFieldForm.dart';
+import 'package:uatciudapp/presentation/report/widgets/checkTNC.dart';
+import 'package:uatciudapp/presentation/report/widgets/headAbstract.dart';
 
 class Info extends StatefulWidget {
   const Info({Key? key}) : super(key: key);

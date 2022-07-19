@@ -19,4 +19,5 @@ abstract class Assets {
   static const String girls = '$_images/girls.png';
   static const String wCurriculum = '$_images/watchCurriculum.png';
   static const String building = '$_images/building.png';
+  static const String congratulations = '$_images/congratulations.png';
 }

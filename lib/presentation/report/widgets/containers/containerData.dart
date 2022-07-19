@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/RowInfo.dart';
+import 'package:uatciudapp/presentation/report/widgets/RowInfo.dart';
 
 class ContainerData extends StatelessWidget {
   const ContainerData({Key? key}) : super(key: key);

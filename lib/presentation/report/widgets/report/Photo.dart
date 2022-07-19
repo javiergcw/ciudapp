@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uatciudapp/core/res/res.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/containers/containerPhoto.dart';
-import 'package:uatciudapp/presentation/habitant/widgets/containers/containerPhotoLabel.dart';
+import 'package:uatciudapp/presentation/report/widgets/containers/containerPhoto.dart';
+import 'package:uatciudapp/presentation/report/widgets/containers/containerPhotoLabel.dart';
 
 class Photo extends StatelessWidget {
   const Photo({Key? key}) : super(key: key);
